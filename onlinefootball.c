@@ -58,7 +58,7 @@ if(flag>1){
   printf("Invalid,only 1 digit max of 2 times\n");
 }
 count=0;
-printf("~~~~\n");
+printf("-----\n");
 for(i=0;i<6;i++){
 if(s[i]==b[i]){
   printf("Goal(%d)\n",s[i]);
@@ -74,6 +74,6 @@ if(count==0){
 else{
   printf("Striker scored %d Goals",count);
 }
-printf("\n~~~~~~");
+printf("\n-----");
 return 0;
 }
