@@ -10,7 +10,7 @@ for(i=0;i<6;i++){
   }
   if(i>=1){
     if(s[i]==s[i-1]){
-      printf("Invalid! no back to back repetation\n");
+      printf("Invalid! no back to back repetition\n");
     }
   }
 }
@@ -39,7 +39,7 @@ for(i=0;i<6;i++){
   }
   if(i>=1){
     if(b[i]==b[i-1]){
-      printf("Invalid! no back to back repetation\n");
+      printf("Invalid! no back to back repetition\n");
     }
   }
 }
